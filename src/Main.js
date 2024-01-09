@@ -1,5 +1,10 @@
 import React from "react";
+import "./Main.css";
 
 export default function Main() {
-  return <h1>Hey from Main</h1>;
+  return (
+    <div className="Main">
+      <h1>Healthy Recipes </h1>
+    </div>
+  );
 }
